@@ -1,0 +1,86 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    display: grid;
+}
+#one{
+    padding-left: 300px;
+    padding-top: 0px;
+    color: #F15B47;
+    font-size: 45px;
+    margin-top: 50px;
+}
+.logotext{
+    color: #F69788;
+    padding-bottom: 28px;
+    padding-left: 300px;
+    
+    font-size: 35px;
+}
+.ulone{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+   
+}
+.listone{
+    display: inline;
+    color: #127BB9;
+    overflow: hidden;
+    padding: 20px;
+    padding-right: 20px;
+}
+.listone a{
+    color: #127BB9;
+    overflow: hidden;
+    text-decoration: none;
+    justify-content: center;
+    padding: 8px;
+
+}
+a:hover{
+    color: #FFC20E;
+    text-decoration: none;
+}
+
+.card{
+    color: white;
+    border: 1px black;
+    background-color: rgb(56, 151, 56);
+    height: 400px;
+    width: 400px;
+    padding-left: 300px;
+    margin-left: 300px; 
+    padding: 30px;
+    border-top: 20px;
+    border-radius: 12px 12px;
+}
+.cardh2{
+    font-size: 30px;
+}
+.cardp1{
+    font-size: 25px;
+}
+.cardone{
+    padding-left: 10px;
+    
+}
+button{
+    border-radius: 15px 15px;
+}
+.onebutton{
+    border: 2px rgb(226, 97, 10);
+    background-color: rgb(226, 97, 10);
+    color: white;
+}
+.twobutton{
+    border: 2px white;
+    color: #085886;
+}
+.card2{
+    background-color: #F69788;
+    height: 350px;
+    width: 600px;
+    grid-area: 2/1;
+}
