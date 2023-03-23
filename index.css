@@ -99,6 +99,10 @@ a:hover{
     padding-left: 10px;
     
 }
+.buttonone{
+    margin-top: 70px;
+    /* margin-left: 10px; */
+}
 button{
     border-radius: 15px 15px;
 }
