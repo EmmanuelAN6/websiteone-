@@ -65,23 +65,21 @@ a:hover{
     height: 500px;
     width: 600px;
     margin-bottom: 100px;
-    margin-left: 400px; 
+    margin-left: 306px; 
     padding: 30px;
     border-radius: 12px 12px;
     /* z-index: 1; */
     position: absolute;
-    top: 300px;
+    top: 199px;
     
 }
 .card2{
     background-color: #F69788;
     height: 500px;
     width: 850px;
-    float: right;
-    /* margin-left: 100px; */
-    /* float: left; */
+    margin-left: 235px;
+    float: left;
     z-index: 7px;
-    /* position:; */
 }
 .cardh2{
     font-size: 30px;
