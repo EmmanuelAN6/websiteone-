@@ -75,12 +75,31 @@ a:hover{
 }
 .card2{
     background-color: #F69788;
-    height: 500px;
+    height: 530px;
     width: 850px;
     margin-left: 235px;
     float: left;
     z-index: 7px;
     inline-size: 1129px;
+}
+.buttontwo{
+    float: right;
+}
+.firstbutton{
+    background-color: rgb(226, 97, 10);
+    border-radius: 30px 30px ;
+    height: 30px;
+    width: 30px;
+    color: white;
+
+}
+.secondbutton{
+    background-color:  #085886;
+    border-radius: 30px 30px ;
+    height: 30px;
+    width: 30px;
+    color: white;
+
 }
 .cardh2{
     font-size: 30px;
