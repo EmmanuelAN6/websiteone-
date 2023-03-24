@@ -71,6 +71,7 @@ a:hover{
     /* z-index: 1; */
     position: absolute;
     top: 199px;
+    box-shadow:  0 0 0 0px rgb(28, 190, 139), 0.1em 0.2em 1em rgba(0, 0, 0, 0.3);
     
 }
 .card2{
