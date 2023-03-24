@@ -80,6 +80,7 @@ a:hover{
     margin-left: 235px;
     float: left;
     z-index: 7px;
+    inline-size: 1129px;
 }
 .cardh2{
     font-size: 30px;
