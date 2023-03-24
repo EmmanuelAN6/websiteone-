@@ -52,7 +52,7 @@
 
 }
 a:hover{
-    color: #FFC20E;
+    color: #c99f17;
     text-decoration: none;
 }
 
@@ -61,8 +61,8 @@ a:hover{
     grid-column: 2/3;
     grid-row: 2;
     border: 1px black;
-    background-color: rgb(56, 151, 56);
-    height: 500px;
+    background-color: rgb(28, 190, 139);
+    height: 640px;
     width: 600px;
     margin-bottom: 100px;
     margin-left: 306px; 
@@ -74,13 +74,12 @@ a:hover{
     
 }
 .card2{
-    background-color: #F69788;
-    height: 530px;
-    width: 850px;
-    margin-left: 235px;
-    float: left;
+    background-color: #f39a8d;
+    height: 640px;
+    width: 350px;
+    float: right;
     z-index: 7px;
-    inline-size: 1129px;
+    inline-size: 1049px;
 }
 .buttontwo{
     float: right;
@@ -95,8 +94,8 @@ a:hover{
 
 }
 .secondbutton{
-    border: 1px #085886;
-    background-color:  #085886;
+    border: 1px #1A4797;
+    background-color:  #1A4797;
     border-radius: 30px 30px ;
     height: 30px;
     width: 30px;
@@ -104,19 +103,21 @@ a:hover{
 
 }
 .cardh2{
-    font-size: 30px;
+    margin-top: 10px;
+    font-size: 44px;
     margin-right: 50px;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 .cardp2{
     color: white;
     font-family: 'Nanum Pen Script', cursive;
     padding: 240px;
     float: right;
-    font-size: 38px;
+    font-size: 41px;
     margin: auto;
 }
 .cardp1{
-    font-size: 25px;
+    font-size: 29px;
 }
 .cardone{
     padding-left: 10px;
@@ -133,13 +134,16 @@ button{
     border: 2px rgb(226, 97, 10);
     background-color: rgb(226, 97, 10);
     color: white;
-    height: 20px;
-    width: 160px;
+    border-radius: 30px 30px;
+    height: 36px;
+    width: 180px;
 }
 .twobutton{
     border: 2px white;
     color: #085886;
-    height: 20px;
-    width: 160px;
+    border-radius: 30px 30px;
+    height: 36px;
+    width: 180px;
+    margin-left: 16px;
 }
 
