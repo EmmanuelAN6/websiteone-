@@ -28,7 +28,7 @@
     grid-column: 3/5;
     grid-row: 1;
     overflow: hidden;
-    margin: 0;
+    margin: 10px;
     /* padding: 5; */
     /* height: 200px;
     width: 300px; */
@@ -40,7 +40,7 @@
     display: inline;
     color: #127BB9;
     overflow: hidden;
-    padding-right: 70px;
+    padding-right: 26px;
     /* float: right; */
 }
 .listone a{
@@ -86,6 +86,7 @@ a:hover{
     float: right;
 }
 .firstbutton{
+    border: 1px rgb(226, 97, 10);
     background-color: rgb(226, 97, 10);
     border-radius: 30px 30px ;
     height: 30px;
@@ -94,6 +95,7 @@ a:hover{
 
 }
 .secondbutton{
+    border: 1px #085886;
     background-color:  #085886;
     border-radius: 30px 30px ;
     height: 30px;
@@ -107,9 +109,10 @@ a:hover{
 }
 .cardp2{
     color: white;
-    font-family:'Cavolini';
-    text-align: center;
-    align-self: center;
+    font-family: 'Nanum Pen Script', cursive;
+    padding: 240px;
+    float: right;
+    font-size: 38px;
     margin: auto;
 }
 .cardp1{
