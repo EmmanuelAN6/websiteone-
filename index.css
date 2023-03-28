@@ -195,7 +195,7 @@ button{
 
 .row1{
     padding-left: 300px;
-    margin-top: 100px;
+    margin-top: 180px;
     display: grid;
 }
 .col1{
@@ -226,9 +226,10 @@ button{
 .col3{
     grid-row: 2;
     grid-column: 5 / 7;
-    height: 400px;
+    height: 500px;
     width: 600px;
     margin-top: 200px;
+    position:relative;
 }
 .colh2{
     grid-row: 2;
@@ -236,15 +237,30 @@ button{
     color: #085886;
     font-size: 48px;
     float: left;
-    margin-top: 215px;
+    margin-top: 115px;
     margin-right: 306px; 
-    z-index: 5px;
+    position: relative;
+    right: 71px;
 }
 .col3Body{
     width: 400px;
 }
 .colp4{
-
+    
     color: #127BB9;
     float: right;
+}
+.colbutton1{
+    background-color: #F15B47;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 40px;
+
+}
+.colbutton2{
+    background-color: #085886;
+    color: white;
+    width: 150px;
+    height: 30px;
 }
