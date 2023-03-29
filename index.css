@@ -208,11 +208,11 @@ button{
 }
 .colp2{
     color: white;
-    
+    margin: 51px;
     font-size: 46px;
-    margin-top: 65px;
+    margin-top: 130px;
     font-family: 'Nanum Pen Script', cursive;
-    text-align: center;
+    text-align: left;
     float: left;
 }
 .col2{
@@ -256,6 +256,7 @@ button{
     width: 150px;
     height: 30px;
     margin-top: 40px;
+    border: 1px #F15B47;
 
 }
 .colbutton2{
@@ -263,4 +264,6 @@ button{
     color: white;
     width: 150px;
     height: 30px;
+    border: 1px #085886;
+    text-align: left;
 }
