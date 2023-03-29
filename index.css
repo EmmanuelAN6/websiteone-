@@ -217,8 +217,8 @@ button{
 }
 .col2{
     background-color: #FFC20E;
-    height: 620px;
-    width: 480px;
+    height: 750px;
+    width: 530px;
     margin-top : -105px;
     grid-row: 2;
     grid-column:  1/2;
@@ -235,10 +235,10 @@ button{
     grid-row: 2;
     grid-column: 3 / span 7;
     color: #085886;
-    font-size: 48px;
+    font-size: 55px;
     float: left;
-    margin-top: 115px;
-    margin-right: 306px; 
+    margin-top: 101px;
+    margin-right: 190px; 
     position: relative;
     right: 71px;
 }
@@ -246,24 +246,41 @@ button{
     width: 400px;
 }
 .colp4{
-    
+    width: 430px;
     color: #127BB9;
     float: right;
 }
 .colbutton1{
     background-color: #F15B47;
     color: white;
-    width: 150px;
+    width: 170px;
     height: 30px;
-    margin-top: 40px;
+    margin-top: 34px;
     border: 1px #F15B47;
 
 }
 .colbutton2{
     background-color: #085886;
     color: white;
-    width: 150px;
+    width: 170px;
     height: 30px;
     border: 1px #085886;
     text-align: left;
+}
+.row2{
+    padding-left: 300px;
+    margin-top: 250px;
+    display: grid;
+}
+.col4{
+    
+}
+.col4h2{
+   
+}
+.rowh2{
+    color: #085886;
+    font-size: 45px;
+    float: left;
+    
 }
