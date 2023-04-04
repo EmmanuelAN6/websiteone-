@@ -14,8 +14,10 @@
     grid-auto-rows: minmax(100px, auto);
 }
 .image{
-    height: 151px;
-    width: 340px;
+    height: 141px;
+    width: 260px;
+    padding: 10px;
+    margin-top: 20px;
 }
 .img1{
     grid-column: 1/2;
@@ -25,6 +27,7 @@
     height: 125px;
     width: 235px;
     float: left;
+    top: 97px;
 }
 .ulone{
     grid-column: 3/5;
@@ -34,7 +37,7 @@
     padding-left: 200px;
     padding-bottom: 10px;
     margin-top:38px;
-    margin-left: 335px;
+    margin-left: 400px;
 }
 .listone{
     display: inline;
@@ -326,7 +329,6 @@ button{
     padding: 30px;
     top: 10px;
     background-color: #1A4797;
-   
 }
 .blueh2{
     color: white;
@@ -464,4 +466,16 @@ button{
 .stylespan{
     font-size:23px; 
     padding: 20px;
+}
+.cardlast{
+    grid-row: 8;
+    margin-top: 100px; 
+}
+.lasth2{
+    color: #1A4797;
+    font-size: 40px;
+    align-self: center;
+}
+.lastB{
+    background-color: #F15B47;
 }
