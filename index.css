@@ -470,12 +470,28 @@ button{
 .cardlast{
     grid-row: 8;
     margin-top: 100px; 
+    
 }
 .lasth2{
     color: #1A4797;
     font-size: 40px;
     align-self: center;
+    margin-left: 500px;
 }
 .lastB{
     background-color: #F15B47;
+    margin: 50px;
 }
+.footer{
+    grid-row: 9;
+    background-color: #F15B47; 
+    width: 1580px;
+    height: 600px;
+    border-radius: 12px 12px 0px 0px;
+    margin-top: 500px;
+    display: grid;
+    grid-template-columns: 18.3% 28%;
+    margin-left: 50px;
+}
+   
+
