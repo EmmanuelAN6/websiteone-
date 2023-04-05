@@ -493,5 +493,39 @@ button{
     grid-template-columns: 18.3% 28%;
     margin-left: 50px;
 }
+.footdiv{
+    padding: 15px;
+    margin-left: 350px;
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+}
+.footdiv2{
+    padding: 15px;
+    margin-left: 550px;
+    height: 300px;
+    width: 350px;
+    margin-top: 100px;
+}
+.footh3{
+    color: white;
+    font-size: 30px;
+}
+.footP{
+    color: white;
+}
+.listthree{
+    overflow: hidden;
+    text-decoration: none;
+}
+.listthree a {
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+}
+.footul{
+    overflow: hidden;
+}
+
    
 
