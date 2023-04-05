@@ -470,25 +470,39 @@ button{
 .cardlast{
     grid-row: 8;
     margin-top: 100px; 
-    
+    height: 630px;
+    width: 700px;
 }
 .lasth2{
     color: #1A4797;
     font-size: 40px;
     align-self: center;
-    margin-left: 500px;
+    margin-left: 380px;
+    float: left;
+    width: 700px;
+    height: 300px;
+
+}
+.imglogo{
+    margin-left: 380px;
+    height: 100px;
+    width: 100px;
 }
 .lastB{
     background-color: #F15B47;
-    margin: 50px;
+    margin-left: 700px;
+    margin-top: 150px;
+    height: 25px;
+    width: 150px;
+    color: white;
 }
 .footer{
     grid-row: 9;
     background-color: #F15B47; 
     width: 1580px;
-    height: 600px;
+    height: 750px;
     border-radius: 12px 12px 0px 0px;
-    margin-top: 500px;
+    margin-top: 80px;                                           
     display: grid;
     grid-template-columns: 18.3% 28%;
     margin-left: 50px;
@@ -498,18 +512,23 @@ button{
     margin-left: 350px;
     height: 300px;
     width: 400px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .footdiv2{
     padding: 15px;
     margin-left: 550px;
     height: 300px;
     width: 350px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .footh3{
     color: white;
     font-size: 30px;
+}
+.footh3ID{
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
 }
 .footP{
     color: white;
@@ -525,7 +544,21 @@ button{
 }
 .footul{
     overflow: hidden;
+    padding: 0px;
 }
+.fa-facebook, .fa-instagram{
+    background: white;
+    color: #F15B47;    
+    padding: 18px;
+    /* font-size: 10px; */
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 50%;
+  }  
+
+  
 
    
 
