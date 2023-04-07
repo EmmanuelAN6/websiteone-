@@ -558,20 +558,25 @@ button{
     border-radius: 50%;
 }  
 @media screen and (max-width: 940px){
-    #idnav{
-
+    .container{
+        display: grid;
+        
+    }
+    #nav{
+        display: block;
     }
     .card{
-        height: 45px;
-        width: 55px;
+        height: 195px;
+        width: 170px;
     }
     .columnh2{
         font-size: 12px;
     }
     .card2{
-        height: 70px;
-        width: 80px;
+        height: 100px;
+        width: 150px;
     }
+    
 }
 
   
