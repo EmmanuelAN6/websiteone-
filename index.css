@@ -89,8 +89,7 @@ a:hover{
     height: 32px;
     width: 32px;
     color: white;
-    font-family: 'Poppins', sans-serif
-
+    font-family: 'Poppins', sans-serif;
 }
 .secondbutton{
     border: 1px #1A4797;
@@ -99,7 +98,7 @@ a:hover{
     height: 32px;
     width: 32px;
     color: white;
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
 }
 .cardh2{
     margin-top: 10px;
@@ -332,6 +331,8 @@ button{
 }
 .blueh2{
     color: white;
+    padding-top: 190px;
+    padding-left: 25px;
 }
 .col5{
     grid-row: 3;
@@ -556,6 +557,22 @@ button{
     margin-right: 20px;
     border-radius: 50%;
 }  
+@media screen and (max-width: 940px){
+    #idnav{
+
+    }
+    .card{
+        height: 45px;
+        width: 55px;
+    }
+    .columnh2{
+        font-size: 12px;
+    }
+    .card2{
+        height: 70px;
+        width: 80px;
+    }
+}
 
   
 
