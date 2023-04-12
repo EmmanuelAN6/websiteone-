@@ -557,16 +557,19 @@ button{
     margin-right: 20px;
     border-radius: 50%;
 }  
-@media screen and (max-width: 940px){
+@media screen and (max-width: 640px){
     .container{
         display: grid;
+    }
+    .image{
+
     }
     #nav{
         display: block;
     }
     .card{
-        height: 555px;
-        width: 390px;
+        height: 755px;
+        width: 400px;
         margin-right: 800px;
     }
     .columnh2{
@@ -574,13 +577,40 @@ button{
     }
     .card2{
         margin-top: 100px;
-        height: 300px;
-        width: 350px;
+        height: 750px;
+        width: 450px;
     }
     .row{
         margin-top: 570px;
-        margin-right: 250px;
+        margin-right: 450px;
+        
     } 
+    .column1{
+
+    }
+    .column2{
+
+    }
+    .column3{
+
+    }
+    .row1{
+        margin-top: 370px;
+    }
+    .col1{
+
+    }
+    .col2{
+        
+    }
+    .col3{
+
+    }
+    .row2{
+
+    }
+
+
 }
 
   
