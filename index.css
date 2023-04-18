@@ -287,7 +287,6 @@ button {
     position: relative;
     z-index: 1;
 }
-
 .cardOran{
     grid-row: 2;
     grid-column: 2 / 3;
@@ -298,13 +297,6 @@ button {
     margin-top: 130px;
     position: absolute;
     right: 300px;
-}
-.cardOR p{
-    padding: 22px;
-    font-size: 50px;
-    color: white;
-    margin-top: 130px;
-    font-family: 'Nanum Pen Script', cursive;
 }
 .rowh2{
     color: #085886;
@@ -381,7 +373,7 @@ button {
     width: 750px;
     position: relative;
 }
-.pinkh2{
+.row3 .cardPink h2{
    color: #1A4797;
    padding: 40px;
    padding-left: 350px;
@@ -444,7 +436,7 @@ button {
     grid-template-columns: 18.3% 28%;
     margin-left: 50px;
 }  
-.cardOR{
+.collast .cardOR{
     position: relative;
     background-color: #F15B47;
     height: 550px;
@@ -452,7 +444,14 @@ button {
     left: 430px;
     bottom: 100px;
 }
-.cardtext{
+.collast .cardOR p{
+    padding: 22px;
+    font-size: 50px;
+    color: white;
+    margin-top: 130px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+.collast .cardtext {
     margin: 5px;
     padding: 30px;
     position: relative;
@@ -461,7 +460,7 @@ button {
     color: white;
 
 }
-.button01{
+.collast .cardtext button {
     height: 29px;
     width: 160px;
     background-color: #F15B47;
@@ -469,17 +468,17 @@ button {
     color: white;
     padding: 0px;
 }
-.stylespan{
+.stylespan {
     font-size:23px; 
     padding: 20px;
 }
-.cardlast{
+.cardlast {
     grid-row: 8;
     margin-top: 100px; 
     height: 630px;
     width: 700px;
 }
-.lasth2{
+.cardlast h2 {
     color: #1A4797;
     font-size: 40px;
     align-self: center;
@@ -488,12 +487,12 @@ button {
     width: 700px;
     height: 300px;
 }
-.imglogo{
+.cardlast img {
     margin-left: 380px;
     height: 100px;
     width: 100px;
 }
-.lastB{
+.cardlast button {
     background-color: #F15B47;
     margin-left: 700px;
     margin-top: 150px;
@@ -546,7 +545,6 @@ button {
     text-decoration: none;
     color: white;
 }
-
 .footer .fa-facebook, .fa-instagram {
     background: white;
     color: #F15B47;    
@@ -590,7 +588,7 @@ button {
         margin-right: 450px;
         
     } 
-    .column1{
+    /* .column1{
 
     }
     .column2{
@@ -598,11 +596,11 @@ button {
     }
     .column3{
 
-    }
+    } */
     .row1{
         margin-top: 370px;
     }
-    .col1{
+    /* .col1{
 
     }
     .col2{
@@ -613,7 +611,7 @@ button {
     }
     .row2{
 
-    }
+    } */
 
 
 }
