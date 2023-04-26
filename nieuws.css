@@ -56,7 +56,7 @@
     background-color: #F15B47;
     height: 350px;
     border-radius: 12px 12px 12px 12px;
-    width: 400px;
+    width: 580px;
     margin: 30px;
     margin-left: 320px; 
     position: relative;
@@ -65,12 +65,16 @@
   }
   #nieuws .col h2{
     color: white;
-    padding: 10px;
-    
+    padding: 38px;
+    margin: 12px;
+    padding-bottom: 40px;
+    font-family: 'poppins', bold;
+    font-size: 35px;
   }
   #nieuws .col p{
     color: white;
-    padding: 10px;
+    padding: 25px;
+     
   }
   #nieuws .col1 {
     background-color: #1A4797;
@@ -79,6 +83,28 @@
     margin: 30px;
     margin-left: 320px; 
     position: relative;
-    bottom: 500px;
+    bottom: 490px;
     left: 280px;
-  }
+}
+#nieuws .buttonone {
+    float: right;
+    padding: 25px;
+}
+#nieuws .buttonone .firstbutton{
+    border: 1px rgb(226, 97, 10);
+    background-color: white;
+    border-radius: 30px 30px ;
+    height: 32px;
+    width: 32px;
+    color: rgb(226, 97, 10);
+    font-family: 'Poppins', sans-serif;
+}
+#nieuws .buttonone .secondbutton {
+    border: 1px #1A4797;
+    background-color:  #1A4797;
+    border-radius: 30px 30px ;
+    height: 32px;
+    width: 32px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
