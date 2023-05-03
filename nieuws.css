@@ -160,6 +160,7 @@
   margin-left: 320px;
   grid-row: 3;
   grid-column: 1 / 4;
+  border-radius: 12px 12px 12px 12px;
   height: 500px;
   width: 400px;
   background-color: #F15B47;
@@ -167,19 +168,24 @@
   top: 200px;
   z-index: 1;
 }
+#row .card h3{
+  color: white;
+  font-size: 25px;
+}
 #row .yellow {
   grid-row: 3;
   grid-column: 2 / 4;
   height: 500px;
   width: 700px;
+  margin-right: 370px;
+  float: right;
   background-color: #c99f17;
   position: relative;
-  bottom: 200px;
+  bottom: 350px;
 }
 #row1 {
   height: 500px;
   margin-left: 320px;
-  /* margin-top: 0px; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(80px, auto);
@@ -193,7 +199,7 @@
 #row1 .card {
   height: 500px;
   width: 300px;
-  grid-row: 4;
+  grid-row: 1;
   grid-column: 1/4;
   box-shadow:  0 0 0 0px rgb(28, 190, 139), 0.1em 0.2em 1em rgba(0, 0, 0, 0.3);
 }
@@ -205,7 +211,7 @@
 #row1 .card1 {
   height: 500px;
   width: 300px;
-  grid-row: 4;
+  grid-row: 1;
   grid-column: 2 /4;
   box-shadow:  0 0 0 0px rgb(28, 190, 139), 0.1em 0.2em 1em rgba(0, 0, 0, 0.3);
 }
@@ -217,7 +223,7 @@
 #row1 .card2 {
   height: 500px;
   width: 300px;
-  grid-row: 4;
+  grid-row: 1;
   grid-column: 3 /4;
   box-shadow:  0 0 0 0px rgb(28, 190, 139), 0.1em 0.2em 1em rgba(0, 0, 0, 0.3);
 }
@@ -226,4 +232,37 @@
   width: 300px;
   background-color: #f39a8d;
 }
-
+#donatie{
+  background-color: #1A4797;
+  grid-row: 6;
+  width: 1580px;
+  height: 570px;
+  border-radius: 12px 12px;
+  margin-top: 500px;
+  display: grid;
+  grid-template-columns: 18.3% 28%;
+  margin-left: 50px;
+} 
+#donatie .cardOR{
+  position: relative;
+  background-color: #cfa39d;
+  height: 550px;
+  width: 400px;
+  left: 430px;
+  bottom: 100px;
+}
+#donatie .cardOR p{
+  padding: 22px;
+  font-size: 50px;
+  color: white;
+  margin-top: 130px;
+  font-family: 'Nanum Pen Script', cursive;
+}
+#donatie .cardtext {
+  margin: 5px;
+  padding: 30px;
+  position: relative;
+  float: left;
+  left: 550px;
+  color: white;
+}
