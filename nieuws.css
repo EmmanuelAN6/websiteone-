@@ -236,12 +236,14 @@
 }
 #row .card h3{
   color: white;
-  font-size: 25px;
-  padding: 12px;
+  font-size: 34px;
+  padding: 27px;
 }
 #row .card p{
-  padding: 17px;
+  color: white;
+  padding: 35px;
   width: 300px;
+  margin-top: -18px;
 }
 #row .yellow {
   grid-row: 3;
@@ -255,7 +257,6 @@
   bottom: 350px;
 }
 #row1 {
-  /* height: 500px; */
   margin-left: 320px;
   display: grid;
 }
@@ -297,7 +298,6 @@
 #row1 .card1 {
   height: 630px;
   width: 300px;
-  /* margin-right: 65px; */
   grid-row: 1;
   grid-column: 2 /4;
   box-shadow:  0 0 0 0px rgb(28, 190, 139), 0.1em 0.2em 1em rgba(0, 0, 0, 0.3);
@@ -381,6 +381,18 @@
   left: 550px;
   color: white;
 }
+#donatie .cardtext button{
+  background-color: #F15B47;
+  color: white;
+  border-radius: 12px 12px 12px 12px;
+  height: 30px;
+  width: 170px;
+  background-image: url(./img/down-arrow.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-position: 130px;
+}
 #sponsors{
   grid-row: 7;
   margin-top: 100px; 
@@ -403,6 +415,7 @@
 }
 #sponsors button {
   background-color: #F15B47;
+  border-radius: 12px 12px 12px 12px;
   margin-left: 700px;
   margin-top: 150px;
   height: 25px;
