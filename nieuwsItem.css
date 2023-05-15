@@ -1,0 +1,334 @@
+*{  
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+  }
+  .container {
+    display: grid;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .logo img { 
+    height: 141px;
+    width: 260px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .logo {
+    grid-column: 1/2;
+    grid-row: 1;
+    padding-left: 300px;
+    padding-bottom: 30px;
+    height: 125px;
+    width: 235px;
+    float: left;
+    top: 97px;
+  }
+  .ulone {
+    grid-column: 3/5;
+    grid-row: 1;
+    overflow: hidden;
+    margin: 10px;
+    padding-left: 200px;
+    padding-bottom: 10px;
+    margin-top:8px;
+    margin-left: 400px;
+  }
+  #nav li {
+    display: inline;
+    overflow: hidden;
+    padding-right: 26px;
+    font-family: 'Poppins', sans-serif;
+  }
+  #nav li a {
+    color: #127BB9;
+    text-decoration: none;
+  }
+  #nav li a:hover {
+    color: #c99f17;
+  }
+
+  #nieuwsItem .col {
+    background-color: #1A4797;
+    height: 350px;
+    border-radius: 12px 12px 12px 12px;
+    width: 580px;
+    margin: 30px;
+    margin-left: 320px; 
+    position: relative;
+    top: 40px;
+    z-index: 1;
+  }
+  #nieuwsItem .col h2{
+    color: white;
+    padding: 38px;
+    margin: 12px;
+    padding-bottom: 40px;
+    font-family: 'poppins', bold;
+    font-size: 35px;
+  }
+  #nieuwsItem .col p{
+    color: white;
+    padding: 25px;
+     
+  }
+  #nieuwsItem .col1 {
+    background-color: #08B89D;
+    height: 350px;
+    width: 1065px;
+    margin: 30px;
+    margin-left: 320px; 
+    position: relative;
+    bottom: 490px;
+    left: 280px;
+  }
+  #nieuwsItem .buttonone {
+    float: right;
+    padding: 25px;
+  }
+  #nieuwsItem .buttonone .firstbutton{
+    border: 1px rgb(226, 97, 10);
+    color: white;
+    border-radius: 30px 30px ;
+    height: 32px;
+    width: 32px;
+    background-color: rgb(226, 97, 10);
+    font-family: 'Poppins', sans-serif;
+  }
+  #nieuwsItem .buttonone .secondbutton {
+    border: 1px #1A4797;
+    background-color:  white;
+    border-radius: 30px 30px ;
+    height: 32px;
+    width: 32px;
+    color: #1A4797;
+    font-family: 'Poppins', sans-serif;
+  } 
+  #nieuwsinfo {
+    margin-left: 320px;
+    display: grid;
+  }
+  #nieuwsinfo h3 {
+    padding: 20px;
+    font-size: 30px;
+    color: #127BB9;
+  }
+  #nieuwsinfo p {
+    width: 240px;
+    padding: 23px;
+    color: #127BB9;
+  }
+  #nieuwsinfo .card {
+    height: 630px;
+    width: 300px;
+    grid-row: 2;
+    grid-column: 1/4;
+    box-shadow:  0 0 0 0px rgb(28, 190, 139), 0.1em 0.2em 1em rgba(0, 0, 0, 0.3);
+  }
+  #nieuwsinfo .card button {
+    background-color: #F15B47;
+    margin-left: 52px;
+    margin-top: 10px;
+    height: 25px;
+    width: 170px;
+    color: white;
+    border-radius: 30px 30px;
+    background-image: url(./img/arrow_blue.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 130px;
+  }
+  #nieuwsinfo .card .orange {
+    height: 150px;
+    width: 300px;
+    background-color: #F15B47;
+  }
+  #nieuwsinfo .card1 {
+    height: 630px;
+    width: 300px;
+    grid-row: 2;
+    grid-column: 2 /4;
+    box-shadow:  0 0 0 0px rgb(28, 190, 139), 0.1em 0.2em 1em rgba(0, 0, 0, 0.3);
+  }
+  #nieuwsinfo .card1 button {
+    background-color: #F15B47;
+    margin-left: 52px;
+    margin-top: 10px;
+    height: 25px;
+    width: 170px;
+    color: white;
+    border-radius: 30px 30px;
+    background-image: url(./img/arrow_blue.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 130px;
+  }
+  #nieuwsinfo .card1 .blauw {
+    height: 150px;
+    width: 300px;
+    background-color:  #1A4797
+  }
+  #nieuwsinfo .card2 {
+    height: 630px;
+    width: 300px;
+    grid-row: 2;
+    grid-column: 3 /4;
+    box-shadow:  0 0 0 0px rgb(28, 190, 139), 0.1em 0.2em 1em rgba(0, 0, 0, 0.3);
+  }
+  #nieuwsinfo .card2 button {
+    background-color: #F15B47;
+    margin-left: 52px;
+    margin-top: 10px;
+    height: 25px;
+    width: 170px;
+    color: white;
+    border-radius: 30px 30px;
+    background-image: url(./img/arrow_blue.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 130px;
+  }
+  #nieuwsinfo .card2 .pink {
+    height: 150px;
+    width: 300px;
+    background-color: #f39a8d;
+  }
+  #donatie{
+    background-color: #1A4797;
+    grid-row: 6;
+    width: 1580px;
+    height: 570px;
+    border-radius: 12px 12px;
+    margin-top: 500px;
+    display: grid;
+    grid-template-columns: 18.3% 28%;
+    margin-left: 50px;
+  } 
+  #donatie .cardOR{
+    position: relative;
+    background-color: #F15B47;
+    height: 550px;
+    width: 400px;
+    left: 430px;
+    bottom: 100px;
+  }
+  #donatie .cardOR p{
+    padding: 22px;
+    font-size: 50px;
+    color: white;
+    margin-top: 130px;
+    font-family: 'Nanum Pen Script', cursive;
+  }
+  #donatie .cardtext {
+    margin: 5px;
+    padding: 30px;
+    position: relative;
+    float: left;
+    left: 550px;
+    color: white;
+  }
+  #donatie .cardtext button{
+    background-color: #F15B47;
+    color: white;
+    border-radius: 12px 12px 12px 12px;
+    height: 30px;
+    width: 170px;
+    background-image: url(./img/down-arrow.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-position: 130px;
+  }
+  #sponsors{
+    grid-row: 7;
+    margin-top: 100px; 
+    height: 630px;
+    width: 700px;
+  }
+  #sponsors h2 {
+    color: #1A4797;
+    font-size: 40px;
+    align-self: center;
+    margin-left: 380px;
+    float: left;
+    width: 700px;
+    height: 300px;
+  }
+  #sponsors img {
+    margin-left: 380px;
+    height: 100px;
+    width: 100px;
+  }
+  #sponsors button {
+    background-color: #F15B47;
+    border-radius: 12px 12px 12px 12px;
+    margin-left: 700px;
+    margin-top: 150px;
+    height: 25px;
+    width: 150px;
+    color: white;
+  }
+  #footer{
+    grid-row: 9;
+    background-color: #F15B47; 
+    width: 1580px;
+    height: 750px;
+    border-radius: 12px 12px 0px 0px;
+    margin-top: 80px;                                           
+    display: grid;
+    grid-template-columns: 18.3% 28%;
+    margin-left: 50px;
+  }
+  #footer .footdiv{
+    padding: 15px;
+    margin-left: 350px;
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+  }
+  #footer .footdiv2{
+    padding: 15px;
+    margin-left: 550px;
+    height: 300px;
+    width: 350px;
+    margin-top: 50px;
+  }
+  #footer h3{
+    color: white;
+    font-size: 30px;
+  }
+  #footer p{
+    color: white;
+  }
+  #footer ul{
+    overflow: hidden;
+    padding: 0px;
+  }
+  #footer li{
+    overflow: hidden;
+    text-decoration: none;
+  }
+  #footer li a {
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+  }
+  #footer .fa-facebook, .fa-instagram {
+    background: white;
+    color: #F15B47;    
+    padding: 15px;
+    font-size: 10px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 50%;
+  } 
