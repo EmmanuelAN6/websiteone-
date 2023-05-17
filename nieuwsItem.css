@@ -70,11 +70,14 @@
     margin: 12px;
     padding-bottom: 40px;
     font-family: 'poppins', bold;
-    font-size: 35px;
+    font-size: 45px;
+    width: 500px;
+    height: 200px;
   }
   #nieuwsItem .col p{
     color: white;
-    padding: 25px;
+    padding: 45px;
+    padding-top: 100px;
      
   }
   #nieuwsItem .col1 {
@@ -109,10 +112,55 @@
     color: #1A4797;
     font-family: 'Poppins', sans-serif;
   } 
+  #nieuwsbericht{
+    margin-left: 320px;
+    margin-top: -280px;
+  }
+  #nieuwsbericht .textinfo{
+    color: #127BB9;
+    height: 600px;
+    width: 548px;
+    
+  }
+  #nieuwsbericht .textinfo .button1{
+    background-color: #F15B47;
+    border-radius: 30px 30px;
+    color: white;
+    border: 1px #F15B47;
+    height: 25px;
+    width: 150px;
+    background-image: url(./img/left-arrow-svgrepo-com\ \(1\).svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 20px;
+  }
+  #nieuwsbericht .textinfo .button2{
+    background-color: #1A4797;
+    border-radius: 30px 30px;
+    color: white;
+    border: 1px #1A4797;
+    height: 25px;
+    width: 150px;
+    margin-left: 10px;
+    background-image: url(./img/arrow_blue.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 120px;
+  }
+  .divh2 h2 {
+    margin-left: 320px;
+    margin-top: 400px;
+    font-size: 50px;
+    color: #127BB9;
+  }
   #nieuwsinfo {
+    margin-top: 100px;
     margin-left: 320px;
     display: grid;
   }
+
   #nieuwsinfo h3 {
     padding: 20px;
     font-size: 30px;
@@ -126,7 +174,7 @@
   #nieuwsinfo .card {
     height: 630px;
     width: 300px;
-    grid-row: 2;
+    grid-row: 4;
     grid-column: 1/4;
     box-shadow:  0 0 0 0px rgb(28, 190, 139), 0.1em 0.2em 1em rgba(0, 0, 0, 0.3);
   }
@@ -137,6 +185,7 @@
     height: 25px;
     width: 170px;
     color: white;
+    border: 1px #F15B47;
     border-radius: 30px 30px;
     background-image: url(./img/arrow_blue.svg);
     background-size: 20px;
@@ -152,7 +201,7 @@
   #nieuwsinfo .card1 {
     height: 630px;
     width: 300px;
-    grid-row: 2;
+    grid-row: 4;
     grid-column: 2 /4;
     box-shadow:  0 0 0 0px rgb(28, 190, 139), 0.1em 0.2em 1em rgba(0, 0, 0, 0.3);
   }
@@ -163,6 +212,7 @@
     height: 25px;
     width: 170px;
     color: white;
+    border: 1px #F15B47;
     border-radius: 30px 30px;
     background-image: url(./img/arrow_blue.svg);
     background-size: 20px;
@@ -178,7 +228,7 @@
   #nieuwsinfo .card2 {
     height: 630px;
     width: 300px;
-    grid-row: 2;
+    grid-row: 4;
     grid-column: 3 /4;
     box-shadow:  0 0 0 0px rgb(28, 190, 139), 0.1em 0.2em 1em rgba(0, 0, 0, 0.3);
   }
@@ -189,6 +239,7 @@
     height: 25px;
     width: 170px;
     color: white;
+    border: 1px #F15B47;
     border-radius: 30px 30px;
     background-image: url(./img/arrow_blue.svg);
     background-size: 20px;
@@ -207,7 +258,7 @@
     width: 1580px;
     height: 570px;
     border-radius: 12px 12px;
-    margin-top: 500px;
+    margin-top: 400px;
     display: grid;
     grid-template-columns: 18.3% 28%;
     margin-left: 50px;
@@ -238,6 +289,7 @@
   #donatie .cardtext button{
     background-color: #F15B47;
     color: white;
+    border: 1px #F15B47;
     border-radius: 12px 12px 12px 12px;
     height: 30px;
     width: 170px;
@@ -269,6 +321,7 @@
   }
   #sponsors button {
     background-color: #F15B47;
+    border: 1px #F15B47;
     border-radius: 12px 12px 12px 12px;
     margin-left: 700px;
     margin-top: 150px;
